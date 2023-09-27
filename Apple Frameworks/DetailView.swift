@@ -9,13 +9,15 @@ import SwiftUI
 
 struct DetailView: View {
     var framework: Framework
+    @Binding var isShowingDetailView: Bool
+    @State private var isShowingSafariView = false
     
     var body: some View {
         VStack {
             HStack {
                 Spacer()
                 Button {
-                    
+                    isShowingDetailView = false 
                 } label: {
                     Image(systemName: "xmark")
                         .foregroundColor(Color.primary)
@@ -33,16 +35,27 @@ struct DetailView: View {
                 .padding()
             Spacer()
             Button {
-                
+                isShowingSafariView = true
             } label: {
                 AFButton(title: "Learn More")
             }
+            //.sheet or .fullScreenCover for style
+            .fullScreenCover(isPresented: $isShowingSafariView) {
+                if let validURL = URL(string: framework.urlString) {
+                    SafariView(url: validURL)
+                } else {
+                    SafariView(url: URL(string: "https://www.apple.com")!)
+                }
+            }
+
+
         }
     }
 }
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView(framework: MockData.sampleFramework)
+        DetailView(framework: MockData.sampleFramework,
+                   isShowingDetailView: .constant(false))
     }
 }
