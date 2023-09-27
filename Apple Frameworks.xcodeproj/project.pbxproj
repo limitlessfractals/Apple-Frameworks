@@ -15,6 +15,8 @@
 		1082A8AB2AC39BF0007C64AF /* Apple_FrameworksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1082A8AA2AC39BF0007C64AF /* Apple_FrameworksUITestsLaunchTests.swift */; };
 		1082A8B82AC39EB6007C64AF /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1082A8B72AC39EB6007C64AF /* Framework.swift */; };
 		1082A8BC2AC3A091007C64AF /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1082A8BB2AC3A091007C64AF /* FrameworkGridView.swift */; };
+		1082A8E22AC3AAC1007C64AF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1082A8E12AC3AAC1007C64AF /* DetailView.swift */; };
+		1082A8E42AC3AE50007C64AF /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1082A8E32AC3AE50007C64AF /* AFButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		1082A8AA2AC39BF0007C64AF /* Apple_FrameworksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1082A8B72AC39EB6007C64AF /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 		1082A8BB2AC3A091007C64AF /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
+		1082A8E12AC3AAC1007C64AF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1082A8E32AC3AE50007C64AF /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				1082A8BB2AC3A091007C64AF /* FrameworkGridView.swift */,
+				1082A8E12AC3AAC1007C64AF /* DetailView.swift */,
+				1082A8E32AC3AE50007C64AF /* AFButton.swift */,
 				1082A88D2AC39BEE007C64AF /* Apple_FrameworksApp.swift */,
 				1082A8B72AC39EB6007C64AF /* Framework.swift */,
 				1082A8912AC39BF0007C64AF /* Assets.xcassets */,
@@ -261,7 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1082A8BC2AC3A091007C64AF /* FrameworkGridView.swift in Sources */,
+				1082A8E22AC3AAC1007C64AF /* DetailView.swift in Sources */,
 				1082A8B82AC39EB6007C64AF /* Framework.swift in Sources */,
+				1082A8E42AC3AE50007C64AF /* AFButton.swift in Sources */,
 				1082A88E2AC39BEE007C64AF /* Apple_FrameworksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
