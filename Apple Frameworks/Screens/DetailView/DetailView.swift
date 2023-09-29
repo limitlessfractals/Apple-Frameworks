@@ -23,8 +23,13 @@ struct DetailView: View {
             Button {
                 isShowingSafariView = true
             } label: {
-                AFButton(title: "Learn More")
+                // AFButton(title: "Learn More")
+                Label("Learn More", systemImage: "book.fill")
             }
+            .buttonStyle(.bordered)
+            .controlSize(.large)
+            .buttonBorderShape(.capsule)
+            .tint(.red)
             //.sheet or .fullScreenCover for style
             .fullScreenCover(isPresented: $isShowingSafariView) {
                 if let validURL = URL(string: framework.urlString) {
