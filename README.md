@@ -41,7 +41,3 @@ Feel free to contribute to the project by creating a pull request. For significa
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-As a side note, if you choose to include the MIT License in your repository, make sure to add a file named `LICENSE` to the root of your repository with the full MIT License text.
