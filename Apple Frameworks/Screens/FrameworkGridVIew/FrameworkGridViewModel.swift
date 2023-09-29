@@ -8,11 +8,6 @@
 import SwiftUI
 
 final class FrameworkGridViewModel: ObservableObject {
-    var selectedFramework: Framework? {
-        didSet { isShowingDetailView = true }
-    }
-    
-    @Published var isShowingDetailView = false
     
     //fill screen based on number of columns
     let columns: [GridItem] = [GridItem(.flexible()),
