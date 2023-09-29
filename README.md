@@ -1,7 +1,3 @@
-Certainly! Here's the updated `README.md` for your iOS app repository, using the provided GitHub URL and the MIT License:
-
----
-
 # iOS Frameworks Explorer App
 
 An iOS application designed to showcase information about various frameworks used for iOS development. The app provides two views for users: a grid view in the main branch and a list view in the `ListView` branch.
